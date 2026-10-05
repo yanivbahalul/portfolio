@@ -22,6 +22,8 @@
     .card,.project-card,.profile-card,.detail{background:#1c1c1c;border-color:#292929}.project-visual{background:#fff}
     .skills span{background:#292929;border-color:#8b2323}.skills span:hover{background:#8b1a1a}
     .section h2 span,.project-card h3::after{color:#8b2323}.project-meta{color:#c9baba}
+    .reveal{opacity:0;transform:translateY(36px);transition:opacity .55s ease,transform .55s ease}.reveal.visible{opacity:1;transform:none}.reveal .project-card,.reveal .skills span,.reveal .profile-card,.reveal .detail{opacity:0;transform:translateY(18px);transition:opacity .4s ease,transform .4s ease}.reveal.visible .project-card,.reveal.visible .skills span,.reveal.visible .profile-card,.reveal.visible .detail{opacity:1;transform:none}.reveal.visible .project-card:nth-child(2),.reveal.visible .skills span:nth-child(2),.reveal.visible .profile-card:nth-child(2),.reveal.visible .detail:nth-child(2){transition-delay:.08s}.reveal.visible .project-card:nth-child(3),.reveal.visible .skills span:nth-child(3){transition-delay:.16s}
+    @media(prefers-reduced-motion:reduce){.reveal,.reveal .project-card,.reveal .skills span,.reveal .profile-card,.reveal .detail{transition:none;transform:none}}
   </style>
 </head>
 <body>
