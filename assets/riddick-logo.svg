@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="70%"><stop offset="0" stop-color="#262b33"/><stop offset="1" stop-color="#090a0d"/></radialGradient>
+    <linearGradient id="lit" x1="0" x2="1"><stop offset="0" stop-color="#9aa6b2"/><stop offset="1" stop-color="#f4f7fa"/></linearGradient>
+    <radialGradient id="iris" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffffff"/><stop offset=".35" stop-color="#d9f0ff"/><stop offset=".72" stop-color="#6fb6ea"/><stop offset="1" stop-color="#1e4a73"/></radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="9"/></filter>
+    <clipPath id="eye"><path d="M30 110 Q110 46 190 110 Q110 174 30 110Z"/></clipPath>
+    <pattern id="px" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#1a1d22"/><rect width="7" height="7" fill="#22262d"/></pattern>
+  </defs>
+  <circle cx="110" cy="110" r="100" fill="url(#bg)"/>
+  <circle cx="110" cy="110" r="100" fill="none" stroke="#8b2323" stroke-width="5"/>
+  <g clip-path="url(#eye)">
+    <rect x="0" y="0" width="110" height="220" fill="url(#px)"/>
+    <rect x="110" y="0" width="110" height="220" fill="url(#lit)"/>
+  </g>
+  <path d="M30 110 Q110 46 190 110 Q110 174 30 110Z" fill="none" stroke="#e9edf1" stroke-width="3"/>
+  <circle cx="122" cy="110" r="32" fill="#bfe6ff" filter="url(#glow)" opacity=".75"/>
+  <circle cx="110" cy="110" r="30" fill="url(#iris)"/>
+  <path d="M110 80 Q103 110 110 140 Q117 110 110 80Z" fill="#0b0d10"/>
+  <path d="M80 110 A30 30 0 0 1 110 80 L110 140 A30 30 0 0 1 80 110Z" fill="#0b0d10" opacity=".55"/>
+  <circle cx="121" cy="99" r="4.5" fill="#fff"/>
+    <text x="244" y="124" font-family="Inter Display" font-weight="900" font-size="78" letter-spacing="5" fill="#15171b">RIDDICK</text>
+  <text x="248" y="160" font-family="Inter" font-weight="600" font-size="17" letter-spacing="12.4" fill="#8b2323">LOW-LIGHT VISION</text>
+</svg>
